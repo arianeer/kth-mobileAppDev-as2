@@ -1,0 +1,10 @@
+.menu-item-link {
+  width: 33vw;
+  margin: 0 10px;
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 800px;
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "travel-tinder",
+  "description": "A universal companion traveling app",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gatsby develop",
+    "start": "npm run develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "^2.0.33",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1"
+  }
+}
