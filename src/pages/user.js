@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "gatsby";
+
+import Layout from "../components/layout";
 
 import Menu from "../components/menu";
 
@@ -7,7 +8,7 @@ import "./user.css";
 
 const user = () => {
   return (
-    <div>
+    <Layout>
       <Menu />
 
       <p>This is the user page</p>
@@ -17,7 +18,7 @@ const user = () => {
           alt="weee"
         />
       </a>
-    </div>
+    </Layout>
   );
 };
 

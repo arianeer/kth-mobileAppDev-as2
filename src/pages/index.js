@@ -1,14 +1,16 @@
 import React from "react";
+import Layout from "../components/layout";
 import Menu from "../components/menu";
+
 const index = () => {
   const number = 1;
   return (
-    <div style={{ color: `purple` }}>
+    <Layout>
       <Menu />
       <h1>Hello Gatsby!</h1>
       <p>What a number {number}.</p>
       <img src="https://source.unsplash.com/random/400x200" alt="Coolnesss" />
-    </div>
+    </Layout>
   );
 };
 export default index;
