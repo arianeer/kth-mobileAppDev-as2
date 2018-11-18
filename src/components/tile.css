@@ -1,0 +1,36 @@
+.tile {
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+.tile__text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 10%;
+  width: 80%;
+  text-align: center;
+  z-index: 3;
+}
+
+.tile_image {
+  max-width: 100%;
+  z-index: 1;
+}
+.tile__image-mask {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(250, 250, 250, 0.5);
+}
+
+.fa-user-circle {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: Dodgerblue;
+  z-index: 3;
+}

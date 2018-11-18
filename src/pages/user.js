@@ -10,7 +10,6 @@ const user = () => {
   return (
     <Layout>
       <Menu />
-
       <p>This is the user page</p>
       <a href="http://www.google.com">
         <img
