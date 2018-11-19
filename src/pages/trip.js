@@ -12,7 +12,7 @@ const trip = () => {
       <Menu />
       <h1>Trip</h1>
       <h2>Venice</h2>
-      <a href="http://www.google.com">
+      <a href="https://www.lonelyplanet.com/italy/venice">
         <img
           src="https://www.prestigeproperty.co.uk/PropertyImages/LargeImages/184778.jpg"
           alt="weee"
@@ -23,9 +23,7 @@ const trip = () => {
       <h3>Description:</h3>
       <p>This is a trip to venice</p>
       <a href="/profile">
-        <button class="primary-button">
-            GO to host's profile
-        </button>
+        <button class="primary-button">GO to host's profile</button>
       </a>
     </Layout>
   );

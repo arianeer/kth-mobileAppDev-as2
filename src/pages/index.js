@@ -23,7 +23,7 @@ const index = () => {
   return (
     <Layout>
       <Menu />
-      <h1>Hello Gatsby!</h1>
+      <h1>Travel Buddy</h1>
 
       <div className="wrapper">{list}</div>
     </Layout>

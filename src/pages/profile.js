@@ -11,9 +11,10 @@ const profile = () => {
     <Layout>
       <Menu />
       <h1>Profile</h1>
-      <h2>Alexandra</h2>
+      <h3 className="profile_name">{Alexandra}</h3>
       <a href="https://www.facebook.com/alexandra.kolonia">
         <img
+          className="profile_picture"
           src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/43952438_1854309891289261_6403780531640598528_n.jpg?_nc_cat=103&_nc_ht=scontent-arn2-1.xx&oh=ce15a8fecc95cfca412cdf2958e39479&oe=5C6789C3"
           alt="weee"
         />
@@ -26,10 +27,8 @@ const profile = () => {
       <p>Stockholm</p>
       <h3>Bio:</h3>
       <p>This is a bio.</p>
-      <a href="/profile">
-        <button class="primary-button">
-            Send a message
-        </button>
+      <a href="mailto:kolonia@kth.se">
+        <button class="primary-button">Send a message</button>
       </a>
     </Layout>
   );

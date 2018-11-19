@@ -1,0 +1,16 @@
+.profile {
+  background-color: #444;
+}
+
+.profile_picture {
+  max-width: 100%;
+  z-index: 1;
+}
+
+.profile_name {
+  color: rebeccapurple;
+  text-align: center;
+}
+
+.menu {
+}
