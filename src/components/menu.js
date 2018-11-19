@@ -17,6 +17,5 @@ export default () => (
     <Link className="menu-item-link" to="/">
       About
     </Link>
-    <Link className="menu-item-link" to="/trip"
   </>
 );

@@ -5,7 +5,7 @@ import "./tile.css";
 const Tile = props => {
   return (
     <div className="tile">
-      <a href="/user">
+      <a href="/trip">
       <img className="tile_image" src={props.src} alt={props.src} />
       <div className="tile__image-mask" />
       <h3 className="tile__text">{props.title}</h3>
